@@ -1,38 +1,47 @@
+.pagedark{
+  background-color: rgb(43, 42, 42);
+  height: 100%;
+}
+.icon{
+  margin-top: 5px;
+  margin-right: 5px;
+  background: url(../public/TextUtils.png);
+  height: 1.8rem;
+  width: 1.8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(1);
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 3rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 158, 194);
+  align-content: flex-end;
+  font-size: 1.5rem;
+}
+.Appdark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(71, 70, 70);
+  align-content: flex-end;
+  font-size: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  position: absolute;
+  right: 1%;
+  top: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

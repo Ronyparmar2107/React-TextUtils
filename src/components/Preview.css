@@ -1,0 +1,20 @@
+.Preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+    height: fit-content;
+    
+}
+
+.Preview p{
+    margin: 0vh;
+    height: fit-content;
+}
+.text{
+    text-align: justify;
+    width: 60%;
+    margin-top: 2%;
+    padding-bottom: 2rem;
+}
